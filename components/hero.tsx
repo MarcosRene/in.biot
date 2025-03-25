@@ -1,4 +1,6 @@
 import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { Textarea } from './ui/textarea'
 
 export default function Hero() {
   return (
@@ -15,7 +17,7 @@ export default function Hero() {
         <div className="flex items-center gap-2 w-full -mt-[10vh]">
           <span className="text-white text-xl">inbiot.com</span>
           <form action="">
-            <input type="text" />
+            <Input type="text" placeholder="https://inbiot.com/sua-url" />
             <Button>Criar agora</Button>
           </form>
         </div>

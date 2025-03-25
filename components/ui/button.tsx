@@ -3,7 +3,7 @@ import { cva, type VariantProps } from 'class-variance-authority'
 import { ComponentProps } from 'react'
 
 const buttonVariants = cva(
-  'h-10 px-4 font-semibold transition-all cursor-pointer disabled:opacity-70 disabled:cursor-not-allowed disabled:pointer-events-none',
+  'h-12 px-4 rounded-xl font-semibold transition-all cursor-pointer disabled:opacity-70 disabled:cursor-not-allowed disabled:pointer-events-none focus:outline-0 focus:ring-2 focus:ring-offset-2 focus:ring-accent-purple',
   {
     variants: {
       variant: {
